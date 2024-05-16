@@ -9,10 +9,14 @@ import imgvector3 from "../../assets/Abdurahman/svg/Vector (3).svg"
 import imgvector4 from "../../assets/Abdurahman/svg/Vector (4).svg"
 import Container from "../../helpers/Container"
 import { styled } from 'styled-components';
+import Fire from './Fire'
+import Sedra from './Sedra';
 
 function Home() {
   return ( 
     <div>
+        <Fire/>
+
         <Container>
             <DIVContainer>
               <HeaderText>Our product.</HeaderText>
@@ -49,6 +53,7 @@ function Home() {
             </DivIcon> 
             </ContainerIcon>
         </Container>
+        <Sedra/>
     </div>
   )
 }
@@ -100,13 +105,13 @@ const ContainerIcon = styled.div`
      justify-content: space-between;
 
 `;
-import React from 'react'
-import Fire from './Fire'
+// import React from 'react'
+// import Fire from './Fire'
 
-function Home() {
-  return (
-    <div><Fire/></div>
-  )
-}
+// function Home() {
+//   return (
+//     <div><Fire/></div>
+//   )
+// }
 
-export default Home
+// export default Home
