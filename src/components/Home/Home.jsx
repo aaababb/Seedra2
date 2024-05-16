@@ -1,3 +1,4 @@
+
 import React from 'react'
 import img from "../../assets/Abdurahman/svg/Frame 16 (1).svg";
 import imge from "../../assets/Abdurahman/svg/Frame 15.svg";
@@ -99,3 +100,13 @@ const ContainerIcon = styled.div`
      justify-content: space-between;
 
 `;
+import React from 'react'
+import Fire from './Fire'
+
+function Home() {
+  return (
+    <div><Fire/></div>
+  )
+}
+
+export default Home
