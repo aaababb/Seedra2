@@ -54,6 +54,14 @@ function Home() {
             </ContainerIcon>
         </Container>
         <Sedra/>
+import Fire from './Fire'
+// import Category from './Category'
+
+function Home() {
+  return (
+    <div>
+        <Fire/>
+        {/* <Category/> */}
     </div>
   )
 }
