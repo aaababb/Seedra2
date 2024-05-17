@@ -1,10 +1,11 @@
 import React from 'react'
 import { styled } from 'styled-components'
 import pomidorPhoto from '../../assets/turdalu/pomidor-1.svg'
+import Container from "../../helpers/Container"
 
 function Sedra() {
   return (
-    <div>
+    <Container>
         <ContainerProduct>
             <div>
                 <DivSedor>
@@ -37,7 +38,7 @@ function Sedra() {
             </div>
             
         </ContainerProduct>
-    </div>
+    </Container>
   )
 }
 

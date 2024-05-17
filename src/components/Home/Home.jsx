@@ -78,7 +78,6 @@ const HeaderText = styled.h1`
 `;
 
 const DivIcon = styled.div`
-  /* border: 1px solid;     */
   width: 135px;
   height: 72px;
   display: flex;
@@ -95,23 +94,14 @@ const DIVContainer = styled.div`
      align-items: center;
      justify-content: space-between;
      flex-direction: row;
+     margin-top: 30px;
     
 `;
 
 const ContainerIcon = styled.div`
-     /* border: 1px solid green; */
      display: flex;
      align-items: center;
      justify-content: space-between;
+     margin-top: 30px;
 
 `;
-// import React from 'react'
-// import Fire from './Fire'
-
-// function Home() {
-//   return (
-//     <div><Fire/></div>
-//   )
-// }
-
-// export default Home
